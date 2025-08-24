@@ -1,4 +1,3 @@
-import React from 'react';
 import './App.css';
 
 function App() {
@@ -7,38 +6,56 @@ function App() {
       <header>
         <h1>Jeremiah Karanja</h1>
         <h2>Software Developer</h2>
-        <p>Nairobi, Nairobi County, Kenya | Open to: On-site, Hybrid, Remote | Available Immediately</p>
-
-        <div className="cv-links">
-          <a href="https://www.linkedin.com/in/jeremiah-karanja-aaa97b358/" target="_blank" rel="noopener noreferrer">
-            LinkedIn
-          </a>
-        </div>
+        <p>Nairobi County, Kenya | Open to: On-site, Hybrid, Remote | Available Immediately</p>
       </header>
+
+      <section>
+        <h3>Professional Summary</h3>
+        <p>
+          Passionate Software Developer with hands-on experience in building scalable web
+          applications, APIs, and management systems. Skilled in both frontend and backend
+          development with a strong focus on clean code, responsive design, and performance.
+          Proven ability to deliver real-world projects including POS systems, Lean Management
+          solutions, and task tracking applications. Fast learner, adaptable, and eager to
+          contribute to dynamic teams.
+        </p>
+      </section>
 
       <section>
         <h3>Current Position</h3>
         <div className="job">
-          <h4>Software Developer at Freelancer</h4>
+          <h4>Software Developer – Freelancer</h4>
           <p className="date">Jan 2025 – Present · Nairobi County, Kenya</p>
           <ul>
-            <li>Working on freelance web development projects using modern stacks.</li>
-            <li>Technologies: React(using tailwind css), Python, Nest.js, Node.js, Next.js, Django, MySQL, PostgreSQL</li>
-            <li>Design and develop responsive user interfaces using React and Tailwind CSS</li>
-            <li>Implement reusable UI components to maintain consistency and accelerate development</li>
-            <li>Ensure cross-device compatibility with Tailwind’s mobile-first design system</li>
+            <li>Developing freelance web and software solutions using modern technologies.</li>
+            <li>
+              Technologies: React (with Tailwind CSS), Python, Nest.js, Node.js, Next.js, Django,
+              MySQL, PostgreSQL
+            </li>
+            <li>Built responsive user interfaces and reusable UI components with React & Tailwind.</li>
+            <li>Designed and implemented secure RESTful APIs with Django & Node.js.</li>
+            <li>Delivered management systems with real-time reporting and notifications.</li>
+            <li>Ensured cross-device and cross-browser compatibility.</li>
           </ul>
         </div>
       </section>
 
       <section>
         <h3>Education</h3>
-        <p><strong>ALX Foundation</strong><br /></p>
+        <p>
+          <strong>ALX Foundation</strong>
+          <br />
+          Software Engineering Program
+        </p>
       </section>
 
       <section>
         <h3>Certifications</h3>
-        <p><strong>ALX Professional Foundation Certificate in Digital Agile</strong><br />Issued by ALX – Apr 2025</p>
+        <p>
+          <strong>ALX Professional Foundation Certificate in Digital Agile</strong>
+          <br />
+          Issued by ALX – Apr 2025
+        </p>
       </section>
 
       <section>
@@ -48,7 +65,8 @@ function App() {
           <ul>
             <li>React</li>
             <li>Next.js</li>
-            <li>Tailwind CSS</li> {/* Added Tailwind CSS here too */}
+            <li>Tailwind CSS</li>
+            <li>Redux</li>
           </ul>
         </div>
         <div>
@@ -66,22 +84,56 @@ function App() {
           <strong>Tools & Others:</strong>
           <ul>
             <li>Postman</li>
-            <li>Git</li>
+            <li>Git & GitHub</li>
+            <li>REST APIs</li>
+            <li>Docker (basic)</li>
           </ul>
         </div>
       </section>
 
       <section>
         <h3>Honors & Awards</h3>
-        <p><strong>ALX Professional Foundation</strong><br />Issued by ALX · Apr 2025</p>
+        <p>
+          <strong>ALX Professional Foundation</strong>
+          <br />
+          Issued by ALX · Apr 2025
+        </p>
       </section>
 
       <section>
         <h3>Projects</h3>
+
+        <div className="project">
+          <h4>Lean Management System</h4>
+          <p>
+            <strong>Description:</strong> A system for optimizing workflow and reducing waste in
+            production lines, with analytics dashboards and task tracking modules.
+          </p>
+          <p>
+            <strong>Technologies Used:</strong> React, Node.js, PostgreSQL
+          </p>
+        </div>
+
         <div className="project">
           <h4>POS System</h4>
-          <p><strong>Description:</strong> A Point of Sale system designed for small businesses, with features like sales tracking, inventory management, and transaction reports.</p>
-          <p><strong>Technologies Used:</strong> Node.js, MySQL, React, Redux</p>
+          <p>
+            <strong>Description:</strong> A Point of Sale system designed for small businesses,
+            featuring sales tracking, inventory management, and reporting.
+          </p>
+          <p>
+            <strong>Technologies Used:</strong> Node.js, MySQL, React, Redux
+          </p>
+        </div>
+
+        <div className="project">
+          <h4>Task Management API</h4>
+          <p>
+            <strong>Description:</strong> A management tool that helps managers track workers’
+            progress. Sends notifications on task completion and highlights overdue tasks.
+          </p>
+          <p>
+            <strong>Technologies Used:</strong> Python, Django, PostgreSQL
+          </p>
         </div>
       </section>
 
@@ -93,13 +145,3 @@ function App() {
 }
 
 export default App;
-
-
-
-
-
-
-
-
-
-
