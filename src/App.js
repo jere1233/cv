@@ -15,7 +15,7 @@ function App() {
           Passionate Software Developer with hands-on experience in building scalable web
           applications, APIs, and management systems. Skilled in both frontend and backend
           development with a strong focus on clean code, responsive design, and performance.
-          Proven ability to deliver real-world projects including POS systems, Lean Management
+          Proven ability to deliver real-world projects including POS systems, Leave Management
           solutions, and task tracking applications. Fast learner, adaptable, and eager to
           contribute to dynamic teams.
         </p>
@@ -104,10 +104,11 @@ function App() {
         <h3>Projects</h3>
 
         <div className="project">
-          <h4>Lean Management System</h4>
+          <h4>Leave Management System</h4>
           <p>
-            <strong>Description:</strong> A system for optimizing workflow and reducing waste in
-            production lines, with analytics dashboards and task tracking modules.
+            <strong>Description:</strong> A system that streamlines employee leave requests,
+            approvals, and tracking. Provides managers with dashboards for monitoring leave
+            balances, generates reports, and sends notifications for approvals or rejections.
           </p>
           <p>
             <strong>Technologies Used:</strong> React, Node.js, PostgreSQL
@@ -136,10 +137,6 @@ function App() {
           </p>
         </div>
       </section>
-
-      <button className="print-button" onClick={() => window.print()}>
-        Download / Print CV
-      </button>
     </div>
   );
 }
